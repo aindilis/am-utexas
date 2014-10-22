@@ -1,6 +1,7 @@
 :- public([am/0, load_am_files/0]).
 
 load_am_files :-
+  [swipl_modifications],
   [common],
   [utilities],
   [clock],
